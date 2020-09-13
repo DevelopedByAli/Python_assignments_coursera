@@ -1,4 +1,4 @@
-#Assignment number 1
+# assignment number 1
 name = input("Enter your name")
 print("Hello", name)
 hrs = input("Enter Hours:")
