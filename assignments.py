@@ -14,3 +14,4 @@ rate = input("Enter Rate")
 h = float(hrs)
 r = float(rate)
 if h > 40 : pay = h * r
+  else : pay = h * r + 5 * 1.5 * r
