@@ -6,7 +6,7 @@ print("Hello", name)
 hrs = input("Enter Hours:")
 rate = input("Enter Rate:")
 x = float(hrs)*float(rate)
-print("Pay:", x)
+  print("Pay:", x)
 
 # assignment number 3 (3.1)
 hrs = input("Enter Hours:")
@@ -15,4 +15,4 @@ h = float(hrs)
 r = float(rate)
 if h > 40 : pay = h * r
   else : pay = h * r + 5 * 1.5 * r
-    print(pay)
+    print("Pay:", pay)
