@@ -9,3 +9,4 @@ x = float(hrs)*float(rate)
 print("Pay:", x)
 
 # assignment number 3 (3.1)
+hrs = input("Enter Hours:")
