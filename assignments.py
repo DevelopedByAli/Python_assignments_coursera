@@ -21,6 +21,7 @@ else : pay = h * r + 5 * 1.5 * r
 print("Pay:", pay)
     
 # Assignment number 4 (3.3)    
+
 score = input("Enter Score between 0.0 and 1.0: ")
 s = float(score)
 if 0.0 <= s < 0.6:print ("F")
