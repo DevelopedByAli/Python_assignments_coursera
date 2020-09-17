@@ -20,6 +20,7 @@ if h > 40 : pay = h * r
 # Assignment number 4 (3.3)    
 score = input("Enter Score between 0.0 and 1.0: ")
 s = float(score)
+if 0.0 <= s < 0.6:print ("F")
     
     
 
