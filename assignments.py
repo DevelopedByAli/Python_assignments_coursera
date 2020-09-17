@@ -17,6 +17,8 @@ if h > 40 : pay = h * r
   else : pay = h * r + 5 * 1.5 * r
     print("Pay:", pay)
     
+# Assignment number 4 (3.3)    
+    
     
 
             
