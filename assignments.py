@@ -18,6 +18,7 @@ if h > 40 : pay = h * r
     print("Pay:", pay)
     
 # Assignment number 4 (3.3)    
+score = input("Enter Score between 0.0 and 1.0: ")
     
     
 
