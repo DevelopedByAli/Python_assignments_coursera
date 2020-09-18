@@ -10,7 +10,7 @@ rate = input("Enter Rate:")
 x = float(hrs)*float(rate)
 print("Pay:", x)
 
-# assignment number 3 (3.1)(using if/else statements first time in python)
+# assignment number 3 (3.1)(using if/else statements (conditionals) first time in python)
 
 hrs = input("Enter Hours:")
 rate = input("Enter Rate")
