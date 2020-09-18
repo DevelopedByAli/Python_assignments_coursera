@@ -20,7 +20,7 @@ if h > 40 : pay = h * r
 else : pay = h * r + 5 * 1.5 * r
 print("Pay:", pay)
     
-# Assignment number 4 (3.3)    
+# Assignment number 4 (3.3)(using the if/elif/else conditionals)    
 
 score = input("Enter Score between 0.0 and 1.0: ")
 s = float(score)
