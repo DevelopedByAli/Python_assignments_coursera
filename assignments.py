@@ -36,3 +36,4 @@ else:print("error")
 def computepay(h,r) :
     if h <= 40 : pay = h * r
     else : pay = h * r + 5 * 0.5 * r
+    return pay
