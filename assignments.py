@@ -40,3 +40,4 @@ def computepay(h,r) :
 hrs = input("Enter Hours:")
 hs = float(hrs)
 rate = input("Enter Rate:")
+rt = float(rate)
