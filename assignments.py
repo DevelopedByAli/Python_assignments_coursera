@@ -31,9 +31,9 @@ elif 0.8 <= s < 0.9:print("B")
 elif 0.9 <= s < 1.0:print("A")
 else:print("error")  
     
-# Assignment number 5 (4.6)(Creating and using functions during the assignment)  
+# Assignment number 5 (4.6)(Creating and using functions for the first time during the assignment)  
 
-def computepay(h,r) :
+def computepay(h,r) : 
     if h <= 40 : pay = h * r
     else : pay = h * r + 5 * 0.5 * r
     return pay
