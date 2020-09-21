@@ -44,4 +44,5 @@ rate = input("Enter Rate:")
 rt = float(rate)
 p = computepay(hs,rt)
 print("Pay",p)
+
 #Assignment number 6 (5.2)(Creating and using loops (while, for) the first time during an assignemnt)
