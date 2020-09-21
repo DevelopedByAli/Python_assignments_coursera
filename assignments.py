@@ -1,3 +1,4 @@
+# Python for everybody assignements 
 # assignment number 1 (2.1)
 
 name = input("Enter your name")
