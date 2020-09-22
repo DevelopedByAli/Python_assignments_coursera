@@ -54,3 +54,4 @@ while True:
         break
     try:
         numb = int(num)
+    except:
