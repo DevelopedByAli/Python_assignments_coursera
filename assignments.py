@@ -59,4 +59,5 @@ while True:
         continue
     if smallest is None : smallest = numb
     elif numb < smallest : smallest = numb
-if largest is None : largest = numb 
+    
+    if largest is None : largest = numb 
