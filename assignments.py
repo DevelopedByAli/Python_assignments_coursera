@@ -61,3 +61,4 @@ while True:
     elif numb < smallest : smallest = numb
     
     if largest is None : largest = numb 
+    elif numb > largest : largest = numb
