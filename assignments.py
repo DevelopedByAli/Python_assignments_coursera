@@ -56,3 +56,4 @@ while True:
         numb = int(num)
     except:
          print("Invalid input")
+         continue 
