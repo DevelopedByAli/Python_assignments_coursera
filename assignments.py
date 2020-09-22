@@ -53,3 +53,4 @@ while True:
     if num == "done" : 
         break
     try:
+        numb = int(num)
