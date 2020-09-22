@@ -56,4 +56,5 @@ while True:
         numb = int(num)
     except:
         print("Invalid input")
-        continue 
+        continue
+    if smallest is None : smallest = numb
