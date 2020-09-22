@@ -58,3 +58,4 @@ while True:
         print("Invalid input")
         continue
     if smallest is None : smallest = numb
+    elif numb < smallest : smallest = numb
