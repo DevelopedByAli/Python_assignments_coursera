@@ -62,3 +62,4 @@ while True:
     
     if largest is None : largest = numb 
     elif numb > largest : largest = numb
+print("Maximum is", largest)
