@@ -68,6 +68,7 @@ print("Minimum is", smallest)
 # From here I completed the first course and started the second one named "Python Data Structures"
 
 # Assignment number 7 (6.5) (Started using Python built-in functions and methods)
+
 text = "X-DSPAM-Confidence:    0.8475";
 opos = text.find('0')
 npos = text.find('5')
