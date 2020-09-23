@@ -72,3 +72,4 @@ text = "X-DSPAM-Confidence:    0.8475";
 opos = text.find('0')
 npos = text.find('5')
 spos = text[opos : npos + 1]
+result = float(spos)
