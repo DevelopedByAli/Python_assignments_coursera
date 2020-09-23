@@ -11,7 +11,7 @@ rate = input("Enter Rate:")
 x = float(hrs)*float(rate)
 print("Pay:", x)
 
-# assignment number 3 (3.1)(using if/else statements (conditionals) first time in python)
+# assignment number 3 (3.1) (using if/else statements (conditionals) first time in python)
 
 hrs = input("Enter Hours:")
 rate = input("Enter Rate")
@@ -21,7 +21,7 @@ if h > 40 : pay = h * r
 else : pay = h * r + 5 * 1.5 * r
 print("Pay:", pay)
     
-# Assignment number 4 (3.3)(using the if/elif/else conditionals)    
+# Assignment number 4 (3.3) (using the if/elif/else conditionals)    
 
 score = input("Enter Score between 0.0 and 1.0: ")
 s = float(score)
@@ -32,7 +32,7 @@ elif 0.8 <= s < 0.9:print("B")
 elif 0.9 <= s < 1.0:print("A")
 else:print("error")  
     
-# Assignment number 5 (4.6)(Creating and using functions the first time during an assignment)  
+# Assignment number 5 (4.6) (Creating and using functions the first time during an assignment)  
 
 def computepay(h,r) : 
     if h <= 40 : pay = h * r
@@ -45,7 +45,7 @@ rt = float(rate)
 p = computepay(hs,rt)
 print("Pay",p)
 
-#Assignment number 6 (5.2)(Creating and using loops (while, for) the first time during an assignemnt)
+#Assignment number 6 (5.2) (Creating and using loops (while, for) the first time during an assignemnt)
 largest = None
 smallest = None
 while True:
