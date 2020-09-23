@@ -69,3 +69,4 @@ print("Minimum is", smallest)
 
 # Assignment number 7 (6.5) (Started using Python built-in functions and methods)
 text = "X-DSPAM-Confidence:    0.8475";
+opos = text.find('0')
