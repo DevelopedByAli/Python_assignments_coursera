@@ -64,3 +64,5 @@ while True:
     elif numb > largest : largest = numb
 print("Maximum is", largest)
 print("Minimum is", smallest)
+
+# From here I completed the first course and started the second one named "Python Data Structures"
