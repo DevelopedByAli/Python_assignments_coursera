@@ -75,3 +75,5 @@ npos = text.find('5')
 spos = text[opos : npos + 1]
 result = float(spos)
 print(result)
+
+# Assignment number 8 (7.1) (Printing the text words from a given file)
