@@ -93,4 +93,4 @@ fname = input("Enter file name: ")
 fh = open(fname)
 sm = 0.0
 count = 0
-
+for line in fh:
