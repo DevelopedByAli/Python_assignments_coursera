@@ -97,4 +97,4 @@ for line in fh:
     if not line.startswith("X-DSPAM-Confidence:") : continue
     sm = sm + float(line[20:])
     count = count + 1
-    
+print("Average spam confidence:", sm / count)    
