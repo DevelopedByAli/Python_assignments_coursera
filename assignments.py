@@ -94,3 +94,6 @@ fh = open(fname)
 sm = 0.0
 count = 0
 for line in fh:
+    if not line.startswith("X-DSPAM-Confidence:") : continue
+    
+    
