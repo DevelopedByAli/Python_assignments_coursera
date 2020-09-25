@@ -92,5 +92,5 @@ for line in fh:
 fname = input("Enter file name: ")
 fh = open(fname)
 sm = 0.0
-
+count = 0
 
