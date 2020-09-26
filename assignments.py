@@ -107,3 +107,5 @@ print("Average spam confidence:", sm / count)
 # When the program completes, sort and print the resulting words in alphabetical order.
 fname = input("Enter file name: ")
 fh = open(fname)
+lst = list()
+
