@@ -99,3 +99,5 @@ for line in fh:
     sm = sm + float(line[20:])
     count = count + 1
 print("Average spam confidence:", sm / count)    
+
+# Assignment number 10 (8.4) (According to a theoty of lists)
