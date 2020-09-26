@@ -114,4 +114,4 @@ for line in fh:
         if not word in lst:
              lst.append(word)
 lst.sort() 
-
+print(lst)
