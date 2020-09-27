@@ -130,3 +130,6 @@ for line in fh:
     line = line.rstrip()
     if not line.startswith('From') : continue
     if line.startswith('From:') : continue
+    words = line.split()
+        
+        
