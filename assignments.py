@@ -132,4 +132,4 @@ for line in fh:
     if line.startswith('From:') : continue
     words = line.split()
     count = count + 1   
-        
+    print(words[1])
