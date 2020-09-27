@@ -128,5 +128,5 @@ fh = open(fname)
 count = 0
 for line in fh:
     line = line.rstrip()
-
+    if not line.startswith('From') : continue
 
