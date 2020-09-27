@@ -116,3 +116,5 @@ for line in fh:
              lst.append(word)
 lst.sort() 
 print(lst)
+
+# Assignment number 11 (8.5)
