@@ -131,5 +131,5 @@ for line in fh:
     if not line.startswith('From') : continue
     if line.startswith('From:') : continue
     words = line.split()
-        
+    count = count + 1   
         
