@@ -124,5 +124,5 @@ print(lst)
 # Hint: make sure not to include the lines that start with 'From:'. Also look at the last line of the sample output to see how to print the count.
 fname = input("Enter file name: ")
 if len(fname) < 1 : fname = "mbox-short.txt"
-
+fh = open(fname)
 
