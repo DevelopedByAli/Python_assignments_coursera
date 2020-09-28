@@ -152,3 +152,6 @@ for line in handle :
     for word in words :
         if not line.startswith('From') : continue
         if line.startswith('From:') : continue   
+        word = words[1]
+        
+        
