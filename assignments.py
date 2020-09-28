@@ -155,3 +155,6 @@ for line in handle :
         word = words[1]
         counts[word] = counts.get(word,0) + 1
 bigcount = None        
+bigword = None
+
+
