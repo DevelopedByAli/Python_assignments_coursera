@@ -146,6 +146,6 @@ print("There were", count, "lines in the file with From as the first word")
 name = input("Enter file:")
 if len(name) < 1 : name = "mbox-short.txt"
 handle = open(name)   
-    
+counts = dict()  
     
     
