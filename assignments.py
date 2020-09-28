@@ -157,4 +157,5 @@ for line in handle :
 bigcount = None        
 bigword = None
 for word,count in counts.items() :
+    if bigcount is None or count > bigcount:
 
