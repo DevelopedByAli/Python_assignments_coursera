@@ -153,5 +153,5 @@ for line in handle :
         if not line.startswith('From') : continue
         if line.startswith('From:') : continue   
         word = words[1]
-        
+        counts[word] = counts.get(word,0) + 1
         
