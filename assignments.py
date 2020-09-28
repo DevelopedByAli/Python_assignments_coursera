@@ -143,3 +143,4 @@ print("There were", count, "lines in the file with From as the first word")
 # that maps the sender's mail address to a count of the number of times they appear in the file. After the dictionary is produced, 
 # the program reads through the dictionary using a maximum loop to find the most prolific committer.
     
+name = input("Enter file:")
