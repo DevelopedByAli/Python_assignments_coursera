@@ -151,3 +151,4 @@ for line in handle :
     words = line.split()
     for word in words :
         if not line.startswith('From') : continue
+        if line.startswith('From:') : continue   
