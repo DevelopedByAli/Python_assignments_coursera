@@ -154,4 +154,4 @@ for line in handle :
         if line.startswith('From:') : continue   
         word = words[1]
         counts[word] = counts.get(word,0) + 1
-        
+bigcount = None        
