@@ -175,3 +175,8 @@ handle = open(name)
 hcount = dict()
 hlist = list()
 for line in handle :
+    words = line.split()
+    
+    
+    
+    
