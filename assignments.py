@@ -181,5 +181,6 @@ for line in handle :
     word = words[5].split(":")
     hcount[word[0]] = hcount.get(word[0],0) + 1
 for key, val in hcount.items() :    
+    hlist.append((key,val))
     
     
