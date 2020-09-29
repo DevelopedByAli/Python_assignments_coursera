@@ -163,7 +163,8 @@ for word,count in counts.items() :
         bigcount = count
 print(bigword,int(bigcount / 7))
 
-# Assignment number 13 (9.5)
+# Assignment number 13 (10.2)
+
 # 10.2 Write a program to read through the mbox-short.txt and figure out the distribution by hour of the day for each of the messages. 
 # You can pull the hour out from the 'From ' line by finding the time and then splitting the string a second time using a colon.
 #    From stephen.marquard@uct.ac.za Sat Jan  5 09:14:16 2008
