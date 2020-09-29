@@ -183,4 +183,5 @@ for line in handle :
 for key, val in hcount.items() :    
     hlist.append((key,val))
 hlist.sort()
-for key, val in hlist:
+for key, val in hlist :
+    print(key, val)
