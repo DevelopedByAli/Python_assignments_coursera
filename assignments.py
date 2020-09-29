@@ -180,3 +180,6 @@ for line in handle :
     if line.startswith('From:') : continue
     word = words[5].split(":")
     hcount[word[0]] = hcount.get(word[0],0) + 1
+for key, val in hcount.items() :    
+    
+    
