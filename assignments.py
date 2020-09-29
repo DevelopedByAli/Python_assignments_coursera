@@ -176,7 +176,7 @@ hcount = dict()
 hlist = list()
 for line in handle :
     words = line.split()
-    
+    if not line.startswith('From') : continue
     
     
     
