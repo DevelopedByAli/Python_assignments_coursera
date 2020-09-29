@@ -164,3 +164,9 @@ for word,count in counts.items() :
 print(bigword,int(bigcount / 7))
 
 # Assignment number 13 (9.5)
+
+
+
+
+
+name = input("Enter file:")
