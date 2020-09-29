@@ -174,4 +174,4 @@ if len(name) < 1 : name = "mbox-short.txt"
 handle = open(name)
 hcount = dict()
 hlist = list()
-
+for line in handle :
