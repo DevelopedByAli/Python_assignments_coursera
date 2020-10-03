@@ -7,3 +7,4 @@ x = list()
 for line in handle : 
   y = re.findall('[0-9]+',line)
   x = x + y
+summe = 0
