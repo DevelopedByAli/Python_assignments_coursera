@@ -9,3 +9,4 @@ for line in handle :
   x = x + y
 summe = 0
 for i in x : summe = summe + int(i)
+print(summe)
