@@ -8,5 +8,6 @@ for line in handle :
   y = re.findall('[0-9]+',line)
   x = x + y
 summe = 0
-for i in x : summe = summe + int(i)
+for i in x : 
+  summe = summe + int(i)
 print(summe)
