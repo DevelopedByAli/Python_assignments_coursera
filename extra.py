@@ -1,5 +1,5 @@
 # Assignment number 14, Python for everybody, Coursera
-
+# Using regular expressions (The Regex for the first time)
 
 import re
 name = input("Enter file:")
