@@ -1,4 +1,5 @@
-print("Hello world")
+# Assignment number 12
+
 import re
 name = input("Enter file:")
 if len(name) < 1 : name = "regex_sum_42.txt"
