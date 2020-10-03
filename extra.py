@@ -1,4 +1,5 @@
-# Assignment number 12
+# Assignment number 14, Python for everybody, Coursera
+
 
 import re
 name = input("Enter file:")
