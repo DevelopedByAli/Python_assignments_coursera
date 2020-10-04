@@ -16,3 +16,5 @@ summe = 0
 for i in x : 
   summe = summe + int(i)
 print(summe)
+
+# Assignment number 15, # Exploring the HyperText Transport Protocol
