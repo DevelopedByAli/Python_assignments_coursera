@@ -18,9 +18,10 @@ for i in x :
 print(summe)
 
 # Assignment number 15, # Exploring the HyperText Transport Protocol
-# You are to retrieve the following document using the HTTP protocol in a way that you can examine the HTTP Response headers.
 
-http://data.pr4e.org/intro-short.txt
+# You are to retrieve the following document using the HTTP protocol in a way that you can examine the HTTP Response headers.
+  
+  http://data.pr4e.org/intro-short.txt
 
   Last-Modified: Sat, 13 May 2017 11:22:22 GMT
 ETag: "1d3-54f6609240717"
