@@ -25,4 +25,4 @@ http://data.pr4e.org/intro-short.txt
   Last-Modified: Sat, 13 May 2017 11:22:22 GMT
 ETag: "1d3-54f6609240717"
 Content-Length: 467
-Cache-Control:
+Cache-Control:max-age=0
