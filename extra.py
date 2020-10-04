@@ -23,3 +23,4 @@ print(summe)
 http://data.pr4e.org/intro-short.txt
 
   Last-Modified: Sat, 13 May 2017 11:22:22 GMT
+ETag:
