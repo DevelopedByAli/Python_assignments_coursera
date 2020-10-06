@@ -34,3 +34,7 @@ Content-Type: text/plain
 # extracting numbers and compute the sum of the numbers in the file
 
 import urllib.request, urllib.parse, urllib.error
+from bs4 import BeautifulSoup
+
+
+
