@@ -52,6 +52,6 @@ tags = soup('span')
 summe = 0
 count = 0
 for tag in tags:
-  sm = sm + int(tag.contents[0]) 
+  summe = summe + int(tag.contents[0]) 
   count = count + 1 
 
