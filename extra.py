@@ -48,3 +48,5 @@ html = urllib.request.urlopen(link, context=ctx).read()
 up = BeautifulSoup(html, "html.parser")
 
 # Retrieve all of span tags
+tags = soup('span')
+
