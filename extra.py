@@ -50,3 +50,6 @@ up = BeautifulSoup(html, "html.parser")
 # Retrieve all of span tags
 tags = soup('span')
 summe = 0
+count = 0
+
+
