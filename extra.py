@@ -51,5 +51,5 @@ up = BeautifulSoup(html, "html.parser")
 tags = soup('span')
 summe = 0
 count = 0
-
+for tag in tags:
 
