@@ -37,4 +37,4 @@ import urllib.request, urllib.parse, urllib.error
 from bs4 import BeautifulSoup
 import ssl
 
-
+# Ignore SSL certificate errors
