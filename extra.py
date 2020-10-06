@@ -32,3 +32,5 @@ Content-Type: text/plain
 #Assignment number 16 #Scraping HTML Data with BeautifulSoup  
 #In this assignment you will write a Python program to use urllib to read the HTML from the data files below, and parse the data, 
 # extracting numbers and compute the sum of the numbers in the file
+
+import urllib.request, urllib.parse, urllib.error
