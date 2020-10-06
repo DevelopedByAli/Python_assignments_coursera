@@ -46,3 +46,5 @@ ctx.verify_mode = ssl.CERT_NONE
 link = input('Enter - ')
 html = urllib.request.urlopen(link, context=ctx).read()
 up = BeautifulSoup(html, "html.parser")
+
+# Retrieve all of span tags
