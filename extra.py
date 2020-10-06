@@ -54,4 +54,4 @@ count = 0
 for tag in tags:
   summe = summe + int(tag.contents[0]) 
   count = count + 1 
-
+print(summe)
