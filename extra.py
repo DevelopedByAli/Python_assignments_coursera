@@ -56,3 +56,5 @@ for tag in tags:
   count = count + 1 
 print(summe)
 print(count)
+
+#Assignment number 17 #Following Links in HTML Using BeautifulSoup
