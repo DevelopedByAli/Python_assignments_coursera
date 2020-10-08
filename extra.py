@@ -83,4 +83,6 @@ for i in range(0,count) :
   html = urllib.request.urlopen(link, context=ctx).read()
   soup = BeautifulSoup(html, "html.parser")
   
+  # Retrieve all of span tags
+  
   
