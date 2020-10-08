@@ -73,4 +73,4 @@ ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
 #Collecting the data
-
+link = input('Enter URL: ')
