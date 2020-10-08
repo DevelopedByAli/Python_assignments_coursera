@@ -77,3 +77,4 @@ link = input('Enter URL: ')
 count = int(input('Enter count: '))
 position = int(input('Enter position: '))
 
+print('Retrieving: %s'% link)
