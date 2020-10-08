@@ -92,7 +92,7 @@ for i in range(0,count) :
       print('Retrieving:' % str(tag.get('href',None)))
       link = str(tag.get('href',None))
       pass = 0
-    
+      break
     
     
     
