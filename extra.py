@@ -81,5 +81,6 @@ position = int(input('Enter position: '))
 print('Retrieving: %s'% link)
 for i in range(0,count) :
   html = urllib.request.urlopen(link, context=ctx).read()
+  soup = BeautifulSoup(html, "html.parser")
   
   
