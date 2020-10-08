@@ -84,5 +84,6 @@ for i in range(0,count) :
   soup = BeautifulSoup(html, "html.parser")
   
   # Retrieve all of span tags
+  tags = soup('a')
   
   
