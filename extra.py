@@ -80,3 +80,6 @@ position = int(input('Enter position: '))
 #Retrieving the data
 print('Retrieving: %s'% link)
 for i in range(0,count) :
+  html = urllib.request.urlopen(link, context=ctx).read()
+  
+  
