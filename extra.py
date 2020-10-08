@@ -75,5 +75,5 @@ ctx.verify_mode = ssl.CERT_NONE
 #Collecting the data
 link = input('Enter URL: ')
 count = int(input('Enter count: '))
-
+position = int(input('Enter position: '))
 
