@@ -88,5 +88,6 @@ for i in range(0,count) :
   pass = 0
   for tag in tags :
     pass = pass + 1
+    if ps == line :
   
   
