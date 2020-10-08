@@ -91,6 +91,7 @@ for i in range(0,count) :
     if ps == line :
       print('Retrieving:' % str(tag.get('href',None)))
       link = str(tag.get('href',None))
+      pass = 0
     
     
     
