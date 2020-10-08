@@ -87,5 +87,6 @@ for i in range(0,count) :
   tags = soup('a')
   pass = 0
   for tag in tags :
+    pass = pass + 1
   
   
