@@ -101,6 +101,9 @@ for i in range(0,count) :
 # We provide two files for this assignment. One is a sample file where we give you the sum for your testing and the other is the actual data you need to process for the assignment.
 # Sample data: http://py4e-data.dr-chuck.net/comments_42.xml (Sum=2553)
 # Actual data: http://py4e-data.dr-chuck.net/comments_965682.xml (Sum ends with 55)   
+
+# To make the code a little simpler, you can use an XPath selector string to look through the entire tree of XML for any tag named 'count' with the following line of code:
+  counts = tree.findall('.//count')
    
   
   
