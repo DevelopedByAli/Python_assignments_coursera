@@ -115,6 +115,7 @@ url = input('Enter location: ')
 total_number = 0
 summe = 0
 
+print('Retrieving', url)
 
 
 
