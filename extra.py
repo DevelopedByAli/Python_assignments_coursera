@@ -121,4 +121,7 @@ print('Retrieved', len(xml), 'characters')
 
 tree = et.fromstring(xml)
 counts = tree.findall('.//count')
-
+for count in counts:
+  
+  
+  
