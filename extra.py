@@ -120,5 +120,5 @@ xml = ur.urlopen(url).read()
 print('Retrieved', len(xml), 'characters')
 
 tree = et.fromstring(xml)
-
+counts = tree.findall('.//count')
 
