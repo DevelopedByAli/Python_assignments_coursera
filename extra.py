@@ -116,6 +116,6 @@ total_number = 0
 summe = 0
 
 print('Retrieving', url)
-
+xml = ur.urlopen(url).read()
 
 
