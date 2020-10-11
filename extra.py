@@ -117,5 +117,5 @@ summe = 0
 
 print('Retrieving', url)
 xml = ur.urlopen(url).read()
-
+print('Retrieved', len(xml), 'characters')
 
