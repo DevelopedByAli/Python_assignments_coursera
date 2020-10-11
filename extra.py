@@ -112,4 +112,9 @@ import xml.etree.ElementTree as et
 url = input('Enter location: ')
 # 'http://python-data.dr-chuck.net/comments_42.xml'
 
+total_number = 0
+
+
+
+
 
