@@ -125,5 +125,6 @@ for count in counts:
   summe += int(count.text)
   total_number += 1
   
+print('Count:', total_number)  
   
   
