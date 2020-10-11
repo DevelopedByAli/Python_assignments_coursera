@@ -123,6 +123,7 @@ tree = et.fromstring(xml)
 counts = tree.findall('.//count')
 for count in counts:
   summe += int(count.text)
+  total_number += 1
   
   
   
