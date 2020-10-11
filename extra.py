@@ -127,5 +127,7 @@ for count in counts:
   
 print('Count:', total_number)  
 print('Sum:', summe)
+
+# Cod output:
   
   
