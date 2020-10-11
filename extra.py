@@ -126,5 +126,6 @@ for count in counts:
   total_number += 1
   
 print('Count:', total_number)  
+print('Sum:', summe)
   
   
