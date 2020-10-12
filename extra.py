@@ -135,7 +135,7 @@ Retrieved 4232 characters
 Count: 50
 Sum: 2355
   
-# Assignment number 18  # Extracting Data from JSON (javaScript Object Notation)
+# Assignment number 19  # Extracting Data from JSON (javaScript Object Notation)
 # In this assignment you will write a Python program somewhat similar to http://www.py4e.com/code3/json2.py. 
 # The program will prompt for a URL, read the JSON data from that URL using urllib and then parse and extract the comment counts from the JSON data, 
 # compute the sum of the numbers in the file and enter the sum below:
