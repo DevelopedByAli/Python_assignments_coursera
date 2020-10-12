@@ -128,7 +128,7 @@ for count in counts:
 print('Count:', total_number)  
 print('Sum:', summe)
 
-# Cod output:
+# sample output:
 Enter location: http://py4e-data.dr-chuck.net/comments_965682.xml
 Retrieving http://py4e-data.dr-chuck.net/comments_965682.xml
 Retrieved 4232 characters
