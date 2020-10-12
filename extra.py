@@ -134,3 +134,5 @@ Retrieving http://py4e-data.dr-chuck.net/comments_965682.xml
 Retrieved 4232 characters
 Count: 50
 Sum: 2355
+  
+# Extracting Data from JSON
