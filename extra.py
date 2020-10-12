@@ -141,3 +141,6 @@ Sum: 2355
 # compute the sum of the numbers in the file and enter the sum below:
 # We provide two files for this assignment. 
 # One is a sample file where we give you the sum for your testing and the other is the actual data you need to process for the assignment.
+
+  # Sample data: http://py4e-data.dr-chuck.net/comments_42.json (Sum=2553)
+  # Actual data: http://py4e-data.dr-chuck.net/comments_965683.json (Sum ends with 64)
