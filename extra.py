@@ -144,3 +144,5 @@ Sum: 2355
 
   # Sample data: http://py4e-data.dr-chuck.net/comments_42.json (Sum=2553)
   # Actual data: http://py4e-data.dr-chuck.net/comments_965683.json (Sum ends with 64)
+
+import urllib.request as ur
