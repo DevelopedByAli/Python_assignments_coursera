@@ -150,3 +150,8 @@ import json
 
 link = input('Enter location: ')
 data = ur.urlopen(link).read().decode('utf-8')
+print('Retrieved: ', len(data), 'characters')
+
+
+
+
