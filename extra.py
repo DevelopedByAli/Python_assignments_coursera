@@ -147,3 +147,5 @@ Sum: 2355
 
 import urllib.request as ur
 import json
+
+link = input('Enter location: ')
