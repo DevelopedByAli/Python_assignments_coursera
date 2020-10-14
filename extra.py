@@ -159,7 +159,9 @@ counts = 0
 for comment in object["comments"]:
     summe += int(comment["count"])
     counts += 1
-
+    
+print('count', counts)
+print('summe: ', summe)
 
 
 
