@@ -156,6 +156,10 @@ object = json.loads(data)
 summe = 0
 counts = 0
 
+for comment in object["comments"]:
+    summe += int(comment["count"])
+    counts += 1
+
 
 
 
