@@ -153,6 +153,9 @@ data = ur.urlopen(link).read().decode('utf-8')
 print('Retrieved: ', len(data), 'characters')
 object = json.loads(data)
 
+summe = 0
+counts = 0
+
 
 
 
