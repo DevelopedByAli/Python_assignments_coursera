@@ -172,4 +172,6 @@ print('summe: ', summe)
 
 # To complete this assignment, you should use this API endpoint that has a static subset of the Google Data:
 
+http://py4e-data.dr-chuck.net/json?
+
 
