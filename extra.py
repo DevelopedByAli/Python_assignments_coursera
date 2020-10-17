@@ -163,6 +163,6 @@ for comment in object["comments"]:
 print('count', counts)
 print('summe: ', summe)
 
-# Assignment number 20  # Extracting Data from JSON (javaScript Object Notation)
+# Assignment number 20  # Using the GeoJSON API
 
 
