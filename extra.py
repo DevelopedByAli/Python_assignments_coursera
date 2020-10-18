@@ -182,4 +182,6 @@ http://py4e-data.dr-chuck.net/json?
 # Make sure to check that your code is using the API endpoint is as shown above. You will get different results from the geojson and json endpoints so make sure 
 # you are using the same end point as this autograder is using.
 
+import urllib.request, urllib.parse, urllib.error
+import json
 
