@@ -192,6 +192,10 @@ serviceurl = "http://py4e-data.dr-chuck.net/geojson?"
 address = input('Enter location: ')
 url = serviceurl + urllib.parse.urlencode({'address': address})
 
+# print("Enter location:", address)
+
+print('Retrieving', url)
+
 
 
 
