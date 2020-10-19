@@ -202,4 +202,7 @@ data = uh.read()
 info = json.loads(data)
 print('Retrieved', len(data), 'characters')
 
+# print place id
+print("Place id " + info['results'][0]['place_id'])
+
 
