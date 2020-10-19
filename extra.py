@@ -185,6 +185,9 @@ http://py4e-data.dr-chuck.net/json?
 import urllib.request, urllib.parse, urllib.error
 import json
 
+# Retrieving http://
+serviceurl = "http://py4e-data.dr-chuck.net/geojson?"
+
 
 
 
