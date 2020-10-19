@@ -196,6 +196,6 @@ url = serviceurl + urllib.parse.urlencode({'address': address})
 
 print('Retrieving', url)
 
-
+uh = urllib.request.urlopen(url)
 
 
