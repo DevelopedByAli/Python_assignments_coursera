@@ -188,6 +188,10 @@ import json
 # Retrieving http://
 serviceurl = "http://py4e-data.dr-chuck.net/geojson?"
 
+# address
+address = input('Enter location: ')
+url = serviceurl + urllib.parse.urlencode({'address': address})
+
 
 
 
