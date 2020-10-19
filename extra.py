@@ -198,4 +198,8 @@ print('Retrieving', url)
 
 uh = urllib.request.urlopen(url)
 
+data = uh.read()
+info = json.loads(data)
+print('Retrieved', len(data), 'characters')
+
 
