@@ -205,4 +205,8 @@ print('Retrieved', len(data), 'characters')
 # print place id
 print("Place id " + info['results'][0]['place_id'])
 
+//////////// useful code \\\\\\\\\\\
+import sqlite3
 
+conn = sqlite3.connect('emaildb.sqlite')
+cur = conn.cursor()
