@@ -233,5 +233,12 @@ for line in fh:
         cur.execute('UPDATE Counts SET count = count + 1 WHERE email = ?',
                     (email,))
     conn.commit()
+    # https://www.sqlite.org/lang_select.html
+sqlstr = 'SELECT email, count FROM Counts ORDER BY count DESC LIMIT 10'
+
+for row in cur.execute(sqlstr):
+    print(str(row[0]), row[1])
+
+cur.close()
 
 
