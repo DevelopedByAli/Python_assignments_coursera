@@ -276,3 +276,9 @@ CREATE TABLE Track (
 # You can export your own tracks from iTunes and create a database, but for the database that you turn in for this assignment, 
 # only use the Library.xml data that is provided.
 # To grade this assignment, the program will run a query like this on your uploaded database and look for the data it expects to see:
+
+'''SELECT Track.title, Artist.name, Album.title, Genre.name 
+    FROM Track JOIN Genre JOIN Album JOIN Artist 
+    ON Track.genre_id = Genre.ID and Track.album_id = Album.id 
+        AND Album.artist_id = Artist.id
+    ORDER BY Artist.name LIMIT 3'''
