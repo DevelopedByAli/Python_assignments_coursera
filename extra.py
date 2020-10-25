@@ -272,4 +272,6 @@ CREATE TABLE Track (
 
 # You can use this code as a starting point for your application: http://www.py4e.com/code3/tracks.zip. 
 # The ZIP file contains the Library.xml file to be used for this assignment.
-    You can export your own tracks from iTunes and create a database, but for the database that you turn in for this assignment, only use the Library.xml data that is provided.
+# You can export your own tracks from iTunes and create a database, but for the database that you turn in for this assignment, 
+# only use the Library.xml data that is provided.
+# To grade this assignment, the program will run a query like this on your uploaded database and look for the data it expects to see:
