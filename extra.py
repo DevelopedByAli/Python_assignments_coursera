@@ -282,3 +282,8 @@ CREATE TABLE Track (
     ON Track.genre_id = Genre.ID and Track.album_id = Album.id 
         AND Album.artist_id = Artist.id
     ORDER BY Artist.name LIMIT 3'''
+import xml.etree.ElementTree as ET
+import sqlite3
+
+conn = sqlite3.connect('trackdb.sqlite')
+cur = conn.cursor()
