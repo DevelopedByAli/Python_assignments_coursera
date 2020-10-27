@@ -342,7 +342,6 @@ print('Dict count:', len(all))
 for entry in all:
     if ( lookup(entry, 'Track ID') is None ) : continue
 
-
     artist = lookup(entry, 'Artist')
     genre = lookup(entry, 'Genre')
     album = lookup(entry, 'Album')
